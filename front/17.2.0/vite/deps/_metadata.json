@@ -1,0 +1,73 @@
+{
+  "hash": "8039e7e8",
+  "configHash": "b530c738",
+  "lockfileHash": "eb1bcfb8",
+  "browserHash": "5ab9d65b",
+  "optimized": {
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/.pnpm/@angular+common@17.2.0_@angular+core@17.2.0_rxjs@7.8.0/node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "da9352aa",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/.pnpm/@angular+core@17.2.0_rxjs@7.8.0_zone.js@0.14.3/node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "7cca1690",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/.pnpm/@angular+platform-browser@17.2.0_@angular+animations@17.2.0_@angular+common@17.2.0_@angular+core@17.2.0/node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "4d7d489d",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/.pnpm/@angular+router@17.2.0_@angular+common@17.2.0_@angular+core@17.2.0_@angular+platform-browser@17.2.0_rxjs@7.8.0/node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "c24f2407",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../node_modules/.pnpm/@angular+common@17.2.0_@angular+core@17.2.0_rxjs@7.8.0/node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "258c828a",
+      "needsInterop": false
+    },
+    "ngx-socket-io": {
+      "src": "../../../../../node_modules/.pnpm/ngx-socket-io@4.6.1_@angular+common@17.2.0_@angular+core@17.2.0_rxjs@7.8.0/node_modules/ngx-socket-io/fesm2022/ngx-socket-io.mjs",
+      "file": "ngx-socket-io.js",
+      "fileHash": "a025ce31",
+      "needsInterop": false
+    },
+    "ngx-toastr": {
+      "src": "../../../../../node_modules/.pnpm/ngx-toastr@18.0.0_@angular+common@17.2.0_@angular+core@17.2.0_@angular+platform-browser@17.2.0/node_modules/ngx-toastr/fesm2022/ngx-toastr.mjs",
+      "file": "ngx-toastr.js",
+      "fileHash": "b59d9876",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations": {
+      "src": "../../../../../node_modules/.pnpm/@angular+platform-browser@17.2.0_@angular+animations@17.2.0_@angular+common@17.2.0_@angular+core@17.2.0/node_modules/@angular/platform-browser/fesm2022/animations.mjs",
+      "file": "@angular_platform-browser_animations.js",
+      "fileHash": "abf1f7ec",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-7D5YALB2": {
+      "file": "chunk-7D5YALB2.js"
+    },
+    "chunk-E5THQHV6": {
+      "file": "chunk-E5THQHV6.js"
+    },
+    "chunk-GYP7HGL4": {
+      "file": "chunk-GYP7HGL4.js"
+    },
+    "chunk-BSI6E22N": {
+      "file": "chunk-BSI6E22N.js"
+    },
+    "chunk-53EIIK3N": {
+      "file": "chunk-53EIIK3N.js"
+    }
+  }
+}
