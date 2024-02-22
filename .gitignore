@@ -1,4 +1,4 @@
-.vscode
+.vscode/*
 firstProject.code-workspace
 front/node_modules
 node-service/node_modules
