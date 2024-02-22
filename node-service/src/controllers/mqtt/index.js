@@ -9,15 +9,12 @@ client.on("connect", () => {
   client.subscribe("topic/device/#");
 });
 
-client.on("message", async (topic, message) => {
+client.on("message", async (_topic, message) => {
   const messageResult = JSON.parse(message.toString());
-  console.log(messageResult);
   await device.makeAction(messageResult);
   io.emit("device", messageResult);
 });
 
-const mqttController = {
-  client, // Export the client for reuse if necessary
-};
+const mqttController = { client };
 
 export default mqttController;

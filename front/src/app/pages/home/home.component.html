@@ -1,0 +1,13 @@
+<app-header />
+
+<div class="relative overflow-x-auto">
+  <div
+    class="w-full flex justify-center items-center pt-10"
+    *ngIf="devices.length === 0"
+  >
+    <span class="font-medium whitespace-nowrap text-gray-400">
+      Kayıtlı aygıt bulunamadı.
+    </span>
+  </div>
+  <app-list-devices [devices]="devices"></app-list-devices>
+</div>

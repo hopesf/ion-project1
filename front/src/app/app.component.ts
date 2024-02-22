@@ -1,13 +1,16 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { HomeComponent } from './home/home.component';
-import { WebSocketService } from './web-socket.service';
+import { CommonModule } from '@angular/common';
 import { ToastrService } from 'ngx-toastr';
-import { DeviceService } from './device.service';
+// components
+import { HomeComponent } from './pages/home/home.component';
+// services
+import { DeviceService } from './services/device.service';
+import { WebSocketService } from './services/web-socket.service';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HomeComponent],
+  imports: [HomeComponent, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

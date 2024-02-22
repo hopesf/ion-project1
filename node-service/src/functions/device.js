@@ -6,11 +6,7 @@ const checkDeviceExist = async (deviceId) => {
 };
 
 const createNewDevice = async ({ deviceId, deviceName, createDate }) => {
-  const device = new Devices({
-    deviceId,
-    deviceName,
-    createDate,
-  });
+  const device = new Devices({ deviceId, deviceName, createDate });
   return await device.save();
 };
 

@@ -21,23 +21,11 @@ app.use(cors());
 app.use("/", mainRoute);
 
 const httpServer = createServer(app);
-export const io = new Server(httpServer, {
-  cors: {
-    origin: "*",
-  },
-});
+export const io = new Server(httpServer, { cors: { origin: "*" } });
 
 io.on("connection", (socket) => {
-  // ...
   console.log("a user connected");
-
-  socket.on("disconnect", () => {
-    console.log("user disconnected");
-  });
+  socket.on("disconnect", () => console.log("user disconnected"));
 });
 
-httpServer.listen(2000, () => {
-  console.log("Server is running on port 2000");
-});
-
-//! notification için websocket kullanılacak ve angular ile yapmış olduğumuz frontend kısmında ise bildirim geldiğinde veritabanından tekrar veri çekerek güncel veriler gösterilecek.
+httpServer.listen(2000, () => console.log("Server is running on port 2000"));

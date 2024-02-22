@@ -1,0 +1,33 @@
+<table class="w-full text-sm text-left rtl:text-right text-gray-400">
+  <thead class="text-xs bg-black border-b border-gray-800">
+    <tr>
+      <th
+        scope="col"
+        class="px-6 py-3 bg-gradient-to-l from-gray-500 via-orange-600 to-orange-600 text-transparent bg-clip-text"
+      >
+        Aygıt Id
+      </th>
+      <th
+        scope="col"
+        class="px-6 py-3 bg-gradient-to-l from-gray-500 via-orange-600 to-orange-600 text-transparent bg-clip-text"
+      >
+        Aygıt Adı
+      </th>
+      <th
+        scope="col"
+        class="px-6 py-3 bg-gradient-to-l from-gray-500 via-orange-600 to-orange-600 text-transparent bg-clip-text"
+      >
+        Oluşma Tarihi
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let device of devices">
+      <td class="px-6 py-4 font-medium whitespace-nowrap text-gray-400">
+        {{ device.deviceId }}
+      </td>
+      <td class="px-6 py-4">{{ device.deviceName }}</td>
+      <td class="px-6 py-4">{{ device.createDate }}</td>
+    </tr>
+  </tbody>
+</table>
